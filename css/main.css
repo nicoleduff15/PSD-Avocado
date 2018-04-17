@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*Nav Bar  */
+nav {
+	background-color: lightgreen;
+	padding:
+}
+
+p {
+  font-family: 'PT Serif', serif;
+}
+
+
+.nav-left {
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.nav-left img {
+  width: 25%;
+	height: 100px;
+	text-align: left;
+}
+
+.nav-right {
+  display: inline-block;
+	position: right;
+	margin-left: 7px;
+	height: 50px;
+	width: 50px;
+}
+
+.nav-right ul li {
+	list-style-type: none;
+}
+
+.nav-right li {
+	display: inline-block;
+	padding: 15px;
+	font-size: 15px;
+	text-align: right;
+	font-family: 'PT Serif', serif;
+}
+
+.nav-right a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-left, .nav-right {
+	display: inline-block;
+	width: 45%
+}
+
+/*Search Bar*/
+input {
+  padding: 10px;
+  box-shadow: 8px 8px 0 lightgrey;
+  border: none;
+  width: 155px;
+  height: 35px;
+  font-size: 15px;
+  border: grey;
+  margin-right: 105px;
+  margin-top: 10px;
+}
+
+i {
+  position: relative;
+  left: 165px;
+  top: 2px;
+}
+
+::placeholder {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/*Center*/
+body {
+	background-color: white;
+}
+
+.search {
+	text-align: right;
+}
+
+.left img {
+  width: 90%;
+}
+
+.left, .right {
+	display: inline-block;
+	width: 46%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.left {
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+.right {
+	margin-top: 35px;
+	font-family: 'PT Serif', serif;
+	color: black;
+	font-size: 17px;
+}
+
+.right span {
+	color: green;
+}
+
+
+/*Buttons*/
+
+button {
+	background-color: tan;
+	color: white;
+	border: none;
+	font-family: 'PT Serif', serif;
+	padding: 20px 25px;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+#buttons {
+	text-align: right;
+	margin-right: 200px;
+	margin-bottom: 75px;
+}
+
+/*footer starts*/
+
+.footer {
+	background-color: lightgreen;
+	text-align: center;
+	height: 100px;
+}
+
+#socialIcons {
+	margin: 0;
+	text-align: center;
+	margin-right: 100px;
+	padding-top: 20px;
+}
+
+#socialIcons a {
+	color: white;
+}
+
+#socialIcons .fa-twitter {
+	background-color: #5DAED5;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+#socialIcons .fa-facebook {
+	background-color: blue;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
+
+#socialIcons .fa-instagram {
+	background-color: purple;
+	border-radius: 50%;
+	padding: 5px 8px;
+}
