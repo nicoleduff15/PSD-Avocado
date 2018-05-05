@@ -6,7 +6,7 @@ body {
 /*Nav Bar  */
 nav {
 	background-color: lightgreen;
-	padding:
+	padding:0;
 }
 
 p {
@@ -171,4 +171,123 @@ button {
 	background-color: purple;
 	border-radius: 50%;
 	padding: 5px 8px;
+}
+
+@media (max-width: 900px) {
+
+	div.right {
+		margin-top: 70px;
+	}
+	div.right h1 {
+		font-size: 35px;
+	}
+
+	button {
+		padding: 10px;
+	}
+
+	div.left img {
+		width: 70%;
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 759px) {
+
+	div.right h1 {
+		font-size: 28px;
+	}
+
+	button {
+		padding: 6px;
+	}
+
+	div.search input {
+		margin-right: 15px;
+	}
+
+}
+
+@media (max-width: 725px){
+
+	div.right {
+		margin-top: 60px;
+		margin-left: 225px;
+	}
+	div.right h1 {
+		font-size: 32px;
+		text-align: center;
+	}
+
+	button {
+		padding: 8px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	div.left img {
+		width: 70%;
+		margin-top: 50px;
+		margin-left: 140px;
+	}
+
+	#socialIcons a {
+		margin-right: 70px;
+		padding: 0;
+	}
+
+}
+
+@media (max-width: 689px) {
+
+	button {
+		padding: 5px;
+
+	}
+	div.right h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	div.left img {
+		width: 65%;
+		margin-top: 50px;
+		margin-left: 140px;
+	}
+
+}
+@media (max-width: 400px) {
+
+	div.right {
+		margin-top: 50px;
+		margin-left: 125px;
+	}
+	div.right h1 {
+		font-size: 27px;
+		text-align: center;
+	}
+
+	button {
+		padding: 4px;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 100%;
+
+	}
+
+	#buttons button {
+		font-size: 12px;
+	}
+
+	div.left img {
+		width: 70%;
+		margin-top: 50px;
+		margin-left: 25px;
+	}
+
+	#socialIcons a {
+		position: initial;
+		margin: 0 auto;
+
+	}
 }
